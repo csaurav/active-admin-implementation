@@ -1,0 +1,36 @@
+<div class="row">
+	<div class="hero-unit">
+		<div class="row-fluid">
+			<div class="span8">
+
+				<% if current_user %>
+					<h3>Hello <%= current_user.email %></h3>
+					<%= link_to "Log out", destroy_user_session_path, :method => :delete %>
+				<% else %>
+					<h1> RailsInception </h1>
+				<% end %>
+				<hr>
+				<h3>Features</h3>
+				<ul>
+					<li>
+						<strong>Front-end</strong>
+						<ul>
+							<li> <i class="icon-ok"></i> <a href="http://html5boilerplate.com/" target="_blank">HTML5 Boilerplate</a> </li>
+							<li> <i class="icon-ok"></i> <a href="http://twitter.github.com/bootstrap/" target="_blank"> Twitter Bootsrap 2.0</a> </li>
+						</ul>
+					</li>
+					<li>
+						<strong>Back-end</strong>
+							<ul>
+								<li> <i class="icon-ok"></i> <a href="http://rubyonrails.org/" target="_blank">Ruby on Rails</a> 3.2.x</li>
+								<li> <i class="icon-ok"></i> <a href="https://github.com/plataformatec/devise/" target="_blank">Authentication System - Devise</li>
+							</ul>
+					</li>
+
+				</ul>
+
+			</div>
+
+		</div>
+	</div>
+</div>
