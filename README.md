@@ -7,7 +7,7 @@ active-admin-implementation is Ruby on Rails 3.2.7 application integrated with A
 Clone the git repo - `git clone git@github.com:csaurav/active-admin-implementation.git` - or [download it]()
 
 Perform the following steps to run the application: 
-<pre>
+
 	1. cd cloned-directory
 	2. bundle install
 	3. Go inside config/envrionments/development.rb and change below portion of the code with your gmail username and password
@@ -26,7 +26,7 @@ Perform the following steps to run the application:
 	 		rake db:migrate
 
 The default user name/password is admin@example.com/password
-<pre>
+
 
 ### Everything else:
 
