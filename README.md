@@ -1,10 +1,10 @@
-# rails-inception
+# active-admin-implementation
 
-rails-inception is a bootstrap application Ruby on Rails 3.2.7, which also uses HTML5 Boilerplate, Twitter Bootstrap. It's been inspired from railStrap. Authentication system has been provided by using the Devise gem (https://github.com/plataformatec/devise/)
+active-admin-implementation is Ruby on Rails 3.2.7 application integrated with ActiveAdmin gemAuthentication system has been provided by using the Devise gem (https://github.com/plataformatec/devise/)
 
 ## Quick start
 
-Clone the git repo - `git clone git://github.com/csaurav/rails-inception.git` - or [download it](https://github.com/csaurav/rails-inception/downloads)
+Clone the git repo - `git clone git@github.com:csaurav/active-admin-implementation.git` - or [download it]()
 
 Perform the following steps to run the application: 
 <pre>
@@ -18,16 +18,16 @@ Perform the following steps to run the application:
 	    :domain => "gmail.com",
 	    :enable_starttls_auto => true,
 	    :authentication => :login,
-	    :user_name => "someuser@gmail.com",
-	    :password => "*********"
+	    :user_name => "userid@gmail.com",
+       :password => "password"
 	  }
 
-
+	  
 	4.Execute rake to create the users database
 	 		rake db:migrate
 <pre>
 
-
+The default user name/password is admin@example.com/password
 
 ### Everything else:
 
