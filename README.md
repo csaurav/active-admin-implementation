@@ -25,7 +25,7 @@ Perform the following steps to run the application:
 	4.Execute rake to create the users database
 	 		rake db:migrate
 
-The default user name/password is admin@example.com/password
+	The default user name/password is admin@example.com/password
 
 
 ### Everything else:
